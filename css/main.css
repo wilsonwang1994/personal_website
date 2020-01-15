@@ -2308,7 +2308,19 @@ input::-moz-focus-inner {
   min-height: 35.6rem;
 }
 
+.timeline__block_school {
+  position: relative;
+  padding-left: 5.6rem;
+  padding-bottom: .5rem;
+  margin-top: 1.8rem;
+  min-height: 27rem;
+}
+
 .timeline .timeline__block:last-child {
+  padding-bottom: 0;
+}
+
+.timeline .timeline__block_school:last-child {
   padding-bottom: 0;
 }
 
