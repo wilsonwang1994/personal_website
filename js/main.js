@@ -110,7 +110,7 @@
                 var active_section;
 
                 active_section = $('section#' + this.element.id);
-                console.log(this.element.id)
+                console.log(this.element.id);
 
                 if (direction === "up") active_section = active_section.prevAll(".target-section").first();
 
